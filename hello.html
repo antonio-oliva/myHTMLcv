@@ -1,17 +1,379 @@
-<!DOCTYPE html>
-<html language="en">
-<html>
-	<head>
-		<title>Hello!</title>
-		<style>
-			h1 {
-				color:blue;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Welcome to my website!</h1>
-		<h2>Hello</h2>
-		Hello, world!
-	</body>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Antonio Oliva CV</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container" style="background-color: rgb(0, 132, 255);">
+        <div class="row border border-warning border-1">
+            <div class="col col-3 align-self-center" style="padding: 1.5%; min-width: 150px;">
+                <img src="./foto_e_loghi/Foto_per_CV.JPG"
+                    class="img-fluid img-thumbnail rounded-circle border-warning border-5" alt="Picture">
+            </div>
+            <div class="col">
+                <div class="row border-bottom border-3">
+                    <h1 class="text-light">Antonio Oliva</h1>
+                    <h5 class="text-light">Mechanical Engineer</h5>
+                </div>
+                <div class="row">
+                    <p class="text-light"><b>Date of birth: </b>20 July 1993</p>
+                    <p class="text-light"><b>Place of birth: </b>Sarno (SA) - Italy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sections -->
+    <div class="container" style="background-color: whitesmoke;">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- Section: Career Goal -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <img width="32" alt="Target Icon" src="./foto_e_loghi/target_icon.png">
+                        <strong style="padding-left: 1%;">CAREER GOAL</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <p class="fst-italic">Using my knowledge and my skills to improve people's lives
+                            is my main source of
+                            motivation.
+                            Therefore, I really appreciate being part of innovative projects, oriented towards
+                            future
+                            and digital transformation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Professional Experience -->
+            <div class=" accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <img width="32" alt="Experience Icon" src="./foto_e_loghi/experience_icon.jpg">
+                        <strong style="padding-left: 1%;">PROFESSIONAL EXPERIENCE</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>BRIDGESTONE</strong></div>
+                                <div class="row" style="text-align: center;"><strong>07/2019 - today</strong></div>
+                                <div class="row" style="text-align: center;">
+                                    <p>ROME - Italy</p>
+                                </div>
+                                <div class="row mx-auto px-4 pt-2"><img style="max-width: 120px; margin: auto;"
+                                        src="./foto_e_loghi/logo_Bridgestone.jpg" class="img-fluid"
+                                        alt="Bridgestone Logo"></div>
+                                <div class="row mx-auto px-4 pt-2 pb-2"><img style="max-width: 120px; margin: auto;"
+                                        src="./foto_e_loghi/logo_Integris.png" class="img-fluid" alt="Integris Logo">
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <strong>R&D Analysis Developer</strong>
+                                <p>I participate in the <u>development of a
+                                        web application</u> for
+                                    digital
+                                    design and
+                                    advanced
+                                    simulation, aimed at enhancing tire simulation technologies by means of
+                                    <u>CAE /
+                                        FEA</u>
+                                    software.
+                                </p>
+                                <p>
+                                    I work on an international project, managed according to the <u>Agile</u> paradigm,
+                                    in
+                                    close collaboration with colleagues from the American and the Japanese
+                                    technical
+                                    centers. Daily, I am involved in software development, mainly on the
+                                    back-end side,
+                                    and in the improvement of finite element analyses.
+                                </p>
+                                <p>
+                                    In the period July 2019 - December 2019 I covered the position of intern.
+                                    Since
+                                    January 2020 I have been a consultant in Bridgestone on behalf of Integris
+                                    Spa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Certificates -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        <img width="32" alt="Certificate Icon" src="./foto_e_loghi/certificate_icon.svg">
+                        <strong style="padding-left: 1%;">CERTIFICATES</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <div class="row mb-3 pb-3 border-bottom border-3">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>ONLINE SPECIALIZATION</strong>
+                                </div>
+                                <div class="row" style="text-align: center;"><strong>05/2021 - 09/2021</strong></div>
+                                <div class="row" style="text-align: center;">
+                                    <p>Duke University</p>
+                                </div>
+                                <div class="row  px-4 pb-2"><img style="max-width: 120px; margin: auto;"
+                                        src="./foto_e_loghi/logo_Duke.jpg" class="img-fluid" alt="Duke University Logo">
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <strong>Java Programming and Software Engineering Fundamentals</strong>
+                                <p>This <u>Specialization</u> covered the
+                                    fundamentals of software development, focusing on algorithm development, data
+                                    representation, and debugging, using HTML, CSS, JavaScript, and Java.
+                                </p>
+                                <p>
+                                    This Specialization required the completion of 5 courses and their certification
+                                    exams. In the final Capstone Project, I created a movie recommender system, i.e., a
+                                    DIY version of Netflix.
+                                </p>
+                                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/F4923945EP6Y"
+                                        class="btn btn-success" target="_blank" role="button">View certificate</a>
+                                    <a href="https://www.dukelearntoprogram.com//capstone/recommender.php?id=wEgX6D97nHKtmp"
+                                        class="btn btn-primary" target="_blank" role="button">Try my recommender!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>ONLINE TEST</strong>
+                                </div>
+                                <div class="row" style="text-align: center;"><strong>01 June 2020</strong></div>
+                                <div class="row  px-4 pb-2 pt-2"><img style="max-width: 120px; margin: auto;"
+                                        src="./foto_e_loghi/logo_EFSET.svg" class="img-fluid" alt="EFSET Logo">
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <strong>EFSET English Certificate</strong>
+                                <p style="text-justify: distribute-all-lines;">EF Standard English Test
+                                </p>
+                                <p>Score: 79/100 (C2 Proficient)
+                                </p>
+                                <a href="https://www.efset.org/cert/z8EKuy" class="btn btn-success" target="_blank"
+                                    role="button">View certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Education -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        <img width="32" alt="Education Icon" src="./foto_e_loghi/education_icon.svg">
+                        <strong style="padding-left: 1%;">EDUCATION</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <div class="row mb-3 pb-3 border-bottom border-3">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>MASTER'S DEGREE</strong>
+                                </div>
+                                <div class="row" style="text-align: center;"><strong>09/2016 - 02/2019</strong></div>
+                                <div class="row" style="text-align: center;">
+                                    <p>UNISA - Italy</p>
+                                </div>
+                                <div class="row  px-4 pb-2"><img style="max-width: 120px; margin: auto;"
+                                        src="./foto_e_loghi/logo_Unisa.png" class="img-fluid" alt="UNISA Logo">
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <strong>Mechanical Engineering: LM-33 – 2nd level degree</strong>
+                                <p>Università degli Studi di Salerno</p>
+                                <p>Thesis title: <i>Use of Multibody-FEM Codes for Simulation and Design of Aeronautical
+                                        Components</i>
+                                    <br>
+                                    Thesis supervisors: Guida D., Pappalardo C. M.
+                                </p>
+                                <p>Graduation date: 21 February 2019
+                                    <br>
+                                    Final degree mark: <strong>110 cum laude (of out 110)</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mb-3 pb-3 border-bottom border-3">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>BACHELOR'S DEGREE</strong>
+                                </div>
+                                <div class="row" style="text-align: center;"><strong>09/2012 - 05/2016</strong></div>
+                                <div class="row" style="text-align: center;">
+                                    <p>UNISA - Italy</p>
+                                </div>
+                                <div class="row  px-4 pb-2"><img style="max-width: 120px; margin: auto;"
+                                        src="./foto_e_loghi/logo_Unisa.png" class="img-fluid" alt="UNISA Logo">
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <strong>Mechanical Engineering: L-9 – 1st level degree</strong>
+                                <p>Università degli Studi di Salerno</p>
+                                <p>Thesis title: <i>Analysis of vehicle longitudinal dynamics during braking</i>
+                                    <br>
+                                    Thesis supervisors: D’Agostino V., Pisaturo M.
+                                </p>
+                                <p>Graduation date: 11 May 2016
+                                    <br>
+                                    Final degree mark: <strong>110 cum laude (of out 110)</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>SCIENTIFIC CERTIFICATE</strong>
+                                </div>
+                                <div class="row" style="text-align: center;"><strong>09/2007 - 07/2012</strong></div>
+                                <div class="row" style="text-align: center;">
+                                    <p>PAGANI (SA)- Italy</p>
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <strong>Scientific High School
+                                </strong>
+                                <p>Liceo Scientifico Mons. B. Mangino, PAGANI (SA)</p>
+                                <p>School-leaving examination mark: <strong>100 (out of 100)</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Technical Expertise -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        <img width="32" alt="Education Icon" src="./foto_e_loghi/laptop_icon.png">
+                        <strong style="padding-left: 1%;">TECHNICAL EXPERTISE</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingFive">
+                    <div class="accordion-body">
+                        <div class="row mb-3 pb-3 border-bottom border-3">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>SOFTWARE DEVELOPMENT</strong>
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Python <small>(OOP)</small></td>
+                                            <td>Java <small>(OOP)</small></td>
+                                            <td>Matlab</td>
+                                            <td>JavaScript <small>(basic)</small></td>
+                                        </tr>
+                                        <tr>
+                                            <td>HTML</td>
+                                            <td>CSS</td>
+                                            <td>SQL <small>(basic)</small></td>
+                                            <td>MongoDB</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Git</td>
+                                            <td>Atlassian suite</td>
+                                            <td>PyCharm</td>
+                                            <td>Eclipse</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Studio3T</td>
+                                            <td>Design Patterns</td>
+                                            <td>Django <small>(basic)</small></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row mb-3 pb-3 border-bottom border-3">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>MECHANICAL DESIGN</strong>
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <table class="table table-striped table-align-middle">
+                                    <tbody>
+                                        <tr>
+                                            <td>ANSYS Workbench</td>
+                                            <td>ABAQUS</td>
+                                            <td>Matlab / Simulink</td>
+                                        </tr>
+                                        <tr>
+                                            <td>SolidWorks</td>
+                                            <td>AutoCAD 2D</td>
+                                            <td>MSC Adams</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="row" style="text-align: center;"><strong>OTHERS</strong>
+                                </div>
+                            </div>
+                            <div class="col col-10">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>Windows</td>
+                                            <td>Microsoft Office Suite</td>
+                                            <td>GIMP</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container" style="background-color: rgb(0, 132, 255);">
+        <p class="text-light"><b>I hereby authorize the processing of the personal data contained in this CV in
+                compliance with the European Regulation (UE) 2016/679.
+            </b></p>
+    </div>
+
+
+    <!-- Javascript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
