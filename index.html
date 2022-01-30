@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="https://antonio-oliva.github.io/myHTMLcv/foto_e_loghi/CV_[ENG]_it_refactor_2022_01_14_signed.pdf" />
+    <meta property="og:image" content="https://antonio-oliva.github.io/myHTMLcv/foto_e_loghi/background2.png" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,10 +16,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <style>
+        #loadingSpinner {
+            position: fixed;
+            opacity: 0.8;
+            background-color: whitesmoke;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1000;
+        }
+    </style>
+
     <title>Antonio Oliva's CV</title>
+
 </head>
 
 <body>
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner">
+        <div class="d-flex justify-content-center text-center"
+            style="position: fixed; top: calc(50% - 3rem); left: calc(50% - 3rem);">
+            <div class="spinner-border text-primary" style="width: 6rem; height: 6rem;">
+            </div>
+        </div>
+    </div>
+
     <!-- Header-->
     <div class="container border border-warning border-1"
         style="background-image: url(./foto_e_loghi/background2.png);">
@@ -74,13 +96,17 @@
                     aria-labelledby="panelsStayOpen-headingAbout">
                     <div class="accordion-body">
                         <b>Date of birth: </b>20 July 1993<br>
-                        <b>Place of birth: </b><nobr>Sarno (SA) - Italy</nobr><br>
+                        <b>Place of birth: </b>
+                        <nobr>Sarno (SA) - Italy</nobr><br>
                         <b>E-mail: </b><a href="mailto:antonio_oliva@outlook.it">antonio_oliva@outlook.it</a><br>
-                        <b>Mobile: </b><a href="tel:+393271883406"><nobr>+39 3271883406</nobr></a><br>
+                        <b>Mobile: </b><a href="tel:+393271883406">
+                            <nobr>+39 3271883406</nobr>
+                        </a><br>
                         <b>GitHub: </b><a href="https://github.com/antonio-oliva">github.com/antonio-oliva</a><br>
                         <b>LinkedIn: </b><a
                             href=https://www.linkedin.com/in/antonio-oliva/?locale=en_US">linkedIn.com/in/antonio-oliva</a><br>
-                        <b>City: </b><nobr>San Marzano sul Sarno (SA) - Italy</nobr><br>
+                        <b>City: </b>
+                        <nobr>San Marzano sul Sarno (SA) - Italy</nobr><br>
                         <b>Driving licence: </b>A | B
                     </div>
                 </div>
@@ -89,7 +115,9 @@
         <div class="d-flex mt-1 mb-1 justify-content-end">
             <a href="https://antonio-oliva.github.io/myHTMLcv/foto_e_loghi/CV_[ENG]_it_refactor_2022_01_14_signed.pdf"
                 target="_blank" download class="btn btn-danger" role="button">
-                <img src="./foto_e_loghi/pdf_download_icon.png" alt="Download PDF!" height="32"><strong><nobr>Download Résumé</nobr></strong></a>
+                <img src="./foto_e_loghi/pdf_download_icon.png" alt="Download PDF!" height="32"><strong>
+                    <nobr>Download Résumé</nobr>
+                </strong></a>
         </div>
     </div>
 
@@ -156,7 +184,7 @@
                                         <nobr>07/2019 - today</nobr>
                                     </strong></div>
                                 <div class="row" style="text-align: center;">
-                                        <nobr>ROME - Italy</nobr>
+                                    <nobr>ROME - Italy</nobr>
                                 </div>
                                 <div class="row mx-auto px-4 pt-1"><img style="max-width: 120px; margin: auto;"
                                         src="./foto_e_loghi/logo_Bridgestone.jpg" class="img-fluid"
@@ -237,7 +265,9 @@
                             <div class="col">
                                 <div class="row" style="text-align: center;"><strong>ONLINE TEST</strong>
                                 </div>
-                                <div class="row" style="text-align: center;"><strong><nobr>01 June 2020</nobr></strong></div>
+                                <div class="row" style="text-align: center;"><strong>
+                                        <nobr>01 June 2020</nobr>
+                                    </strong></div>
                                 <div class="row  px-4 pb-2 pt-2"><img style="max-width: 120px; margin: auto;"
                                         src="./foto_e_loghi/logo_EFSET.svg" class="img-fluid" alt="EFSET Logo">
                                 </div>
@@ -287,14 +317,19 @@
                             <div class="col col-10">
                                 <strong>Mechanical Engineering: <nobr>LM-33 – 2nd level degree</nobr></strong>
                                 <p>Università degli Studi di Salerno</p>
-                                <p>Thesis title: <i><nobr>Use of Multibody-FEM Codes for</nobr> Simulation and Design of Aeronautical
-                                        Components</i>
+                                <p>Thesis title: <i>
+                                        <nobr>Use of Multibody-FEM Codes for</nobr> Simulation and Design of
+                                        Aeronautical
+                                        Components
+                                    </i>
                                     <br>
                                     Thesis supervisors: <nobr>Guida D., Pappalardo C. M.</nobr>
                                 </p>
                                 <p>Graduation date: 21 February 2019
                                     <br>
-                                    Final degree mark: <strong><nobr>110 cum laude (of out 110)</nobr></strong>
+                                    Final degree mark: <strong>
+                                        <nobr>110 cum laude (of out 110)</nobr>
+                                    </strong>
                                 </p>
                             </div>
                         </div>
@@ -316,13 +351,17 @@
                             <div class="col col-10">
                                 <strong>Mechanical Engineering: <nobr>L-9 – 1st level degree</nobr></strong>
                                 <p>Università degli Studi di Salerno</p>
-                                <p>Thesis title: <i><nobr>Analysis of vehicle longitudinal dynamics </nobr>during braking</i>
+                                <p>Thesis title: <i>
+                                        <nobr>Analysis of vehicle longitudinal dynamics </nobr>during braking
+                                    </i>
                                     <br>
                                     Thesis supervisors: <nobr>D’Agostino V., Pisaturo M.</nobr>
                                 </p>
                                 <p>Graduation date: 11 May 2016
                                     <br>
-                                    Final degree mark: <strong><nobr>110 cum laude (of out 110)</nobr></strong>
+                                    Final degree mark: <strong>
+                                        <nobr>110 cum laude (of out 110)</nobr>
+                                    </strong>
                                 </p>
                             </div>
                         </div>
@@ -330,7 +369,9 @@
                             <div class="col">
                                 <div class="row" style="text-align: center;"><strong>SCIENTIFIC CERTIFICATE</strong>
                                 </div>
-                                <div class="row" style="text-align: center;"><strong><nobr>09/2007 - 07/2012</nobr></strong>
+                                <div class="row" style="text-align: center;"><strong>
+                                        <nobr>09/2007 - 07/2012</nobr>
+                                    </strong>
                                 </div>
                                 <div class="row" style="text-align: center;">
                                     <nobr>PAGANI (SA)- Italy</nobr>
@@ -340,7 +381,9 @@
                                 <strong>Scientific High School
                                 </strong>
                                 <p>Liceo Scientifico Mons. B. Mangino, PAGANI (SA)</p>
-                                <p>School-leaving examination mark: <strong><nobr>100 (out of 100)</nobr></strong></p>
+                                <p>School-leaving examination mark: <strong>
+                                        <nobr>100 (out of 100)</nobr>
+                                    </strong></p>
                             </div>
                         </div>
                     </div>
@@ -363,7 +406,9 @@
                             <div class="table-responsive">
                                 <table class="table table-striped" style="text-align: center;">
                                     <thead>
-                                        <td colspan="3"><strong><nobr>SOFTWARE DEVELOPMENT</nobr></strong></td>
+                                        <td colspan="3"><strong>
+                                                <nobr>SOFTWARE DEVELOPMENT</nobr>
+                                            </strong></td>
                                     </thead>
                                     <tbody>
                                         <tr>
@@ -382,19 +427,25 @@
                                             <td>Git</td>
                                         </tr>
                                         <tr>
-                                            <td><nobr>Atlassian suite</nobr></td>
+                                            <td>
+                                                <nobr>Atlassian suite</nobr>
+                                            </td>
                                             <td>MongoDB</td>
                                             <td>Studio3T</td>
                                         </tr>
                                         <tr>
                                             <td>PyCharm</td>
                                             <td>Eclipse</td>
-                                            <td><nobr>VS Code</nobr></td>
+                                            <td>
+                                                <nobr>VS Code</nobr>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Django <small>*</small></td>
                                             <td>O.O.P.</td>
-                                            <td><nobr>Design Patterns</nobr></td>
+                                            <td>
+                                                <nobr>Design Patterns</nobr>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -405,20 +456,28 @@
                             <div class="table-responsive">
                                 <table class="table table-striped" style="text-align: center;">
                                     <thead>
-                                        <td colspan="3"><strong><nobr>MECHANICAL DESIGN</nobr></strong></td>
+                                        <td colspan="3"><strong>
+                                                <nobr>MECHANICAL DESIGN</nobr>
+                                            </strong></td>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>ABAQUS</td>
-                                            <td><nobr>ANSYS Workbench</nobr></td>
+                                            <td>
+                                                <nobr>ANSYS Workbench</nobr>
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td>Matlab/Simulink</td>
                                             <td>SolidWorks</td>
                                         </tr>
                                         <tr>
-                                            <td><nobr>AutoCAD 2D</nobr></td>
-                                            <td><nobr>MSC Adams</nobr></td>
+                                            <td>
+                                                <nobr>AutoCAD 2D</nobr>
+                                            </td>
+                                            <td>
+                                                <nobr>MSC Adams</nobr>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -433,7 +492,9 @@
                                     <tbody>
                                         <tr>
                                             <td>Windows</td>
-                                            <td><nobr>Microsoft Office Suite</nobr></td>
+                                            <td>
+                                                <nobr>Microsoft Office Suite</nobr>
+                                            </td>
                                             <td>GIMP</td>
                                         </tr>
                                     </tbody>
@@ -464,10 +525,14 @@
                                 </div>
                             </div>
                             <div class="col col-10">
-                                <p>Title: <i><nobr>A General Method for </nobr>Performing an Integrated CAD-MBD-FEM Analysis
+                                <p>Title: <i>
+                                        <nobr>A General Method for </nobr>Performing an Integrated CAD-MBD-FEM Analysis
                                     </i>
                                     <br>
-                                    Authors: <nobr>Pappalardo, C. M.,</nobr> <nobr>Biondo, A.,</nobr> <nobr>Oliva, A.,</nobr> <nobr>and Guida, D.</nobr>
+                                    Authors: <nobr>Pappalardo, C. M.,</nobr>
+                                    <nobr>Biondo, A.,</nobr>
+                                    <nobr>Oliva, A.,</nobr>
+                                    <nobr>and Guida, D.</nobr>
                                     <br>
                                     In: Grabchenko’s International Conference on Advanced Manufacturing Processes
                                 </p>
@@ -481,11 +546,16 @@
                                 </div>
                             </div>
                             <div class="col col-10">
-                                <p>Title: <i><nobr>Redesign of an Aircraft Cargo Door </nobr>by using a CAD-MBD-FEM Integration
+                                <p>Title: <i>
+                                        <nobr>Redesign of an Aircraft Cargo Door </nobr>by using a CAD-MBD-FEM
+                                        Integration
                                         Method
                                     </i>
                                     <br>
-                                    Authors: <nobr>Guida, D.,</nobr> <nobr>Oliva, A.,</nobr> <nobr>Biondo, A.,</nobr> <nobr>and Pappalardo, C. M</nobr>
+                                    Authors: <nobr>Guida, D.,</nobr>
+                                    <nobr>Oliva, A.,</nobr>
+                                    <nobr>Biondo, A.,</nobr>
+                                    <nobr>and Pappalardo, C. M</nobr>
                                     <br>
                                     In: Grabchenko’s International Conference on Advanced Manufacturing Processes
                                 </p>
@@ -524,7 +594,7 @@
         </div>
         <!-- Signature -->
         <div class="d-flex justify-content-end">
-            <img src="./foto_e_loghi/signature.png"  height="40" width="auto" alt="Antonio Oliva">
+            <img src="./foto_e_loghi/signature.png" height="40" width="auto" alt="Antonio Oliva">
         </div>
     </div>
 
@@ -536,11 +606,19 @@
             </b></p>
     </div>
 
-
     <!-- Javascript: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- Custom Javascript-->
+    <script>
+        // Display and remove loading spinner
+        document.onreadystatechange = function () {
+            if (document.readyState == "complete") {
+                document.querySelector("#loadingSpinner").style.visibility = "hidden";
+            }
+        }
+    </script>
 
 </body>
 
